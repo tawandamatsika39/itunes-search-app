@@ -8,9 +8,19 @@ body {
 }
 
 #cover {
-  background: #abaec2;
+  
   
 }
+
+audio { width: 100%; }
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding-bottom: 0;
+}
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
